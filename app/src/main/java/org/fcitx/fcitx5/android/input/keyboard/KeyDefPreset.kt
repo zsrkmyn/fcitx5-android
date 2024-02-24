@@ -236,6 +236,11 @@ class ReturnKey(percentWidth: Float = 0.15f) : KeyDef(
             arrayOf(
                 Popup.Menu.Item(
                     "Emoji", R.drawable.ic_baseline_tag_faces_24, KeyAction.PickerSwitchAction()
+                ),
+                Popup.Menu.Item(
+                   "OneHand",
+                    R.drawable.ic_baseline_access_point_one_handed_24,
+                    KeyAction.SwitchToOneHandAction()
                 )
             )
         )
